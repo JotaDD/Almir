@@ -1,0 +1,16 @@
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.csprojAssemblyReference.cache
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.Properties.Resources.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.csproj.GenerateResource.cache
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.csproj.CoreCompileInputs.cache
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmLogin.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\bin\Debug\Escola.exe.config
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\bin\Debug\Escola.exe
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\bin\Debug\Escola.pdb
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.exe
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.pdb
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmAluno.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmMenu.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmNota.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmPMateria.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmProfessor.resources
+C:\Users\joao_\Documents\Projetao\Escola\Escola\Escola\obj\Debug\Escola.FrmSalas.resources

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20900D4F-AFA0-4563-A274-81DBACAF1FFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Escola</RootNamespace>
+    <AssemblyName>Escola</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsDados\BLL\Aluno.cs" />
+    <Compile Include="clsDados\BLL\Materia.cs" />
+    <Compile Include="clsDados\BLL\Nota.cs" />
+    <Compile Include="clsDados\BLL\Professor.cs" />
+    <Compile Include="clsDados\BLL\Salas.cs" />
+    <Compile Include="clsDados\BLL\Serie.cs" />
+    <Compile Include="clsDados\BLL\Usuarios.cs" />
+    <Compile Include="clsDados\DAL\Aluno.cs" />
+    <Compile Include="clsDados\DAL\Banco.cs" />
+    <Compile Include="clsDados\DAL\Materia.cs" />
+    <Compile Include="clsDados\DAL\Nota.cs" />
+    <Compile Include="clsDados\DAL\Professor.cs" />
+    <Compile Include="clsDados\DAL\Salas.cs" />
+    <Compile Include="clsDados\DAL\Serie.cs" />
+    <Compile Include="clsDados\DAL\Usuarios.cs" />
+    <Compile Include="clsDados\Model\Aluno.cs" />
+    <Compile Include="clsDados\Model\Materia.cs" />
+    <Compile Include="clsDados\Model\Nota.cs" />
+    <Compile Include="clsDados\Model\Professor.cs" />
+    <Compile Include="clsDados\Model\Salas.cs" />
+    <Compile Include="clsDados\Model\Serie.cs" />
+    <Compile Include="clsDados\Model\Usuarios.cs" />
+    <Compile Include="EscolaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EscolaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAluno.Designer.cs">
+      <DependentUpon>FrmAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNota.Designer.cs">
+      <DependentUpon>FrmNota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPMateria.Designer.cs">
+      <DependentUpon>FrmPMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProfessor.Designer.cs">
+      <DependentUpon>FrmProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalas.Designer.cs">
+      <DependentUpon>FrmSalas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAluno.resx">
+      <DependentUpon>FrmAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNota.resx">
+      <DependentUpon>FrmNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPMateria.resx">
+      <DependentUpon>FrmPMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProfessor.resx">
+      <DependentUpon>FrmProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalas.resx">
+      <DependentUpon>FrmSalas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="EscolaDataSet.xsc">
+      <DependentUpon>EscolaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EscolaDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EscolaDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="EscolaDataSet.xss">
+      <DependentUpon>EscolaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
